@@ -4,6 +4,7 @@ package com.imooc.boot_demo.repository;
 import com.imooc.boot_demo.domain.User;
 import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -32,6 +33,14 @@ public class UserRepository {
         user.setId(id);
 
         return repository.put(id, user) == null;
+    }
+
+    /**
+     *  返回所有用户列表
+     * @return
+     */
+    public Collection<User> findAll(){
+        return repository.values();
     }
 
 }
