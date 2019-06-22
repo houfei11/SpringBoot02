@@ -1,7 +1,7 @@
-package com.imooc.boot_demo.repository;
+package boot_demo.repository;
 
 
-import com.imooc.boot_demo.domain.User;
+import boot_demo.domain.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

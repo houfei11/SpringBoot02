@@ -1,14 +1,13 @@
-package com.imooc.boot_demo.config;
+package boot_demo.config;
 
-import com.imooc.boot_demo.domain.User;
-import com.imooc.boot_demo.repository.UserRepository;
+import boot_demo.domain.User;
+import boot_demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.server.*;
 import reactor.core.publisher.Flux;
 
-import java.io.Serializable;
 import java.util.Collection;
 
 /**

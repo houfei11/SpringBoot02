@@ -1,4 +1,4 @@
-package com.imooc.boot_demo.domain;
+package boot_demo.domain;
 
 /**
  * 用户模型

@@ -1,8 +1,8 @@
-package com.imooc.boot_demo.controller;
+package boot_demo.controller;
 
 
-import com.imooc.boot_demo.domain.User;
-import com.imooc.boot_demo.repository.UserRepository;
+import boot_demo.domain.User;
+import boot_demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
